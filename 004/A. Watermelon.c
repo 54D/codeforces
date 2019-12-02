@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    int i;
-    scanf("%d",&i);
-    if(i%2==0){
+    int x;
+    scanf("%d",&x);
+    if (x % 2 == 0 && x != 2){
         printf("YES\n");
     }else{
         printf("NO\n");
